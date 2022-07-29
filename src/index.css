@@ -36,6 +36,8 @@ body{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 5px solid black;
 }
 
 .btn{
@@ -69,6 +71,7 @@ body{
   background-color: white;
   border-radius: 5px;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .task h3{
@@ -133,4 +136,32 @@ form{
   color: white;
   font-size: 16px;
 }
+
+.footer{
+  margin-top: 20px;
+  padding: 5px 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  border-top: 5px solid black;
+}
+
+.about{
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.about h4{
+  color: grey;
+}
+
 

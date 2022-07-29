@@ -30,7 +30,7 @@ const onSubmit = (e =>{
         </div>
 
         <div className="form-control">
-            <label>Date & Time</label>
+            <label>Day & Time</label>
             <input type="text" id="date" value={day} onChange={(e) => setDay(e.target.value)}/>
         </div>
 
