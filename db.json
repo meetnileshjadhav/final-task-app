@@ -1,16 +1,22 @@
 {
   "tasks": [
     {
-      "text": "fsdfds",
-      "day": "sdfsdf",
-      "reminder": false,
+      "text": "School reporting",
+      "day": "Monday 9 AM",
+      "reminder": true,
       "id": 1
     },
     {
-      "text": "sdfsd",
-      "day": "dsfsdf",
-      "reminder": true,
+      "text": "Doctor's Appointment",
+      "day": "Tuesday 3 PM",
+      "reminder": false,
       "id": 2
+    },
+    {
+      "text": "Party time",
+      "day": "Sunday 9 PM",
+      "reminder": true,
+      "id": 3
     }
   ]
 }

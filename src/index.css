@@ -40,6 +40,16 @@ body{
   border-bottom: 5px solid black;
 }
 
+.reminder-click{
+  display: block;
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: wheat;
+  padding: 2px 0;
+  border-radius: 5px;
+}
+
 .btn{
   padding: 8px 15px;
   color: white;
